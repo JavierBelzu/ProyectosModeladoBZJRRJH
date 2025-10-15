@@ -9,7 +9,7 @@ Este proyecto es una escalacion del proyecto anterior, para permitir la visualiz
 
 El sistema permite gestionar una lista de tareas que se almacena en un archivo `tareas.json`. A través de un script de Python, se genera un reporte visual en formato HTML para una fácil visualización en cualquier navegador web.
 
-## [cite_start]Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 1.  **Añadir o modificar tareas (Opcional)**: Para modificar algo en la lista de tareas, se hace como en la entrega del prouecto 1, es decir desde la terminal como se ve en ./Instrucciones.txt
 
@@ -17,11 +17,10 @@ El sistema permite gestionar una lista de tareas que se almacena en un archivo `
     ```bash
     python export_html.py
     ```
-    [cite: 35]
 
-3.  **Ver el resultado**: Abre el archivo `index.html` en tu navegador web. [cite_start]Puedes hacer doble clic sobre él o arrastrarlo a una ventana del navegador. [cite: 36]
+3.  **Ver el resultado**: Abre el archivo `index.html` en tu navegador web. Puedes hacer doble clic sobre él o arrastrarlo a una ventana del navegador.
 
-## [cite_start]Captura de Pantalla del Resultado [cite: 27]
+## Captura de Pantalla del Resultado
 Captura de la pagina web
 
 ![Ejemplo de la agenda web](./ImageAgenda.png)
