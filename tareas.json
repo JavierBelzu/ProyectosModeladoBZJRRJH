@@ -1,0 +1,38 @@
+[
+    {
+        "id": "T-0009",
+        "titulo": "Jugar",
+        "descripcion": "Ir al entrenamiento",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": true
+    },
+    {
+        "id": "T-0010",
+        "titulo": "Proyecto",
+        "descripcion": "Corregir errores",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": false
+    },
+    {
+        "id": "T-0011",
+        "titulo": "Limpiar",
+        "descripcion": "Exterminar cucarachas",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": false
+    },
+    {
+        "id": "T-0012",
+        "titulo": "Escuela",
+        "descripcion": "Convencer a julian de que esta bien el proyecto",
+        "prioridad": 1,
+        "fecha": "2025-10-14",
+        "etiquetas": [],
+        "completada": false
+    }
+]

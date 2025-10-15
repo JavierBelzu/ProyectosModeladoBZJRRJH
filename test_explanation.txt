@@ -1,0 +1,21 @@
+Aqui se da la explicacion de los 7 testeos del proyecto
+
+1
+En el primer test se verifica que se agregen las tareas correspondientes, en este caso se crean 2 tareas y se verifica que se agregen las 2 tareas.
+
+2
+En el segundo test se verifica que la busqueda funcione si el contenido buscado se encuentra en la descripcion de la tarea y no en el titulo.
+
+3
+En este test se verifica que el listado funciones si se da un parametro, en este caso por fecha, y que se devuelva en el orden esperado 
+
+4
+En este test se verifica que funcione bien el marcar una tarea como completada dado su id
+
+5
+En este test se verifica que al momento de cargar las tareas desde otro archivo, las que estaban previamente se modifican por las que estan en el archivo dado(el archivo debe ser json)
+
+6 y 7
+Los ultimos test verifican el funcionamiento de eliminar tareas
+En el sexto test se verifica que se elimine una tara existente, dado su id exitosamente
+En el septimo test verifica que no se puedan eliminar tareas inexistentes
