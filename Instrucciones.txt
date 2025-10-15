@@ -1,0 +1,54 @@
+Como usar el programa de Organizador de tareas.
+
+//Notas de nosotros. Basamos una parte de la organizacion del proyecto de uno parecido que ya se habia hecho en el lenguaje de java
+en el semestre pasado. asi que parte del como esta escrito el codigo fue buscando en videos y en internet el como transcribir el codigo previamente hecho
+en python ya que ninguno de nosotros sabe python a un buen nivel (Estamos en ello, ya nos metimos a un curso de udemy :3)
+
+//Tomamos en cuenta biblotecas recomendadas en el archivo, sugerencias de internet y patrones de otros lados para hacer el codigo "elegante"
+//Intentamos reescribimo esto varias veces para que se cumpliera lo mejor posible las buenas practicas PEP
+
+Que tener para utilizar
+
+Tener en una carpeta el core del codigo (Nosotros le pusimos Organizador) los siguiente archivos:
+tarea.py
+repo.py
+io_json.py
+cli.py
+
+Tener en la carpeta root el inicializador del codigo(Nosotors le pusimos main.py)
+
+Carpeta root/
+├── main.py
+├── Organizador/
+│   ├── tarea.py
+│   ├── repo.py
+│   ├── io_json.py
+│   └── cli.py
+
+
+Comandos
+
+desde la carpeta root
+
+agregar tarea:
+python3 <nombre del ejecutador>(main.py) add "Nombre de la tarea" --descripcion "Descricpcion de la tarea" --fecha 2025-10-30 --prioridad 3 --etiquetas etiqueta1 etiqueta2
+"Solo es necesario ingresar el nombre para que se pueda aniadir una tarea" las demas banderas con para aniadir contenido
+
+listar
+python3 <nombre del ejecutador>(main.py) ls --por fecha (se puede usar fecha/prioridad/titulo ,  si se utiliza sin bandera lo lista por titulo)
+
+buscar una tarea:
+python3 <nombre del ejecutador>(main.py) find "clave a buscar"
+
+completar una tarea:
+python3 <nombre del ejecutador>(main.py) done <id de tarea> T-0001 (Importante que se escriba completo el id, en este ejemplo si solo se usa 1 no la marcara)
+
+remover una tarea:
+python3 <nombre del ejecutador>(main.py) rm <Id de tarea> T-0001 ()
+
+guardar:
+python3 <nombre del ejecutador>(main.py) save <nombredelarchivo.json> (El programa guarda automaticamente al modificar el repo de tareas, pero este comando sirve para guardar en otro archivo el mismo repo)
+
+cargar:
+python3 <nombre del ejecutador>(main.py) load <nombredelarchivo.json> (Despues de la modificacion que hicimos dado el problema que usted describio en el correo, este metodo se ejecuta solo al hacer cualquer accion, pero usarlo independientemente con otro archivo es relativamente inutil ya que se pierde lo que guarde si no es el arvhivo tarea.json original "Lo vamos a resolver para la siguiente entrega")
+

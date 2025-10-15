@@ -62,4 +62,3 @@ def obtener_todas_tareas():
 def cargar_tareas(tareas):
     global _tareas
     _tareas = tareas
-    print(f"{len(tareas)} tareas cargadas en el repositorio.")

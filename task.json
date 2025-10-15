@@ -1,0 +1,38 @@
+[
+    {
+        "id": "T-0001",
+        "titulo": "Jugar Silksong",
+        "descripcion": "Conseguir todos los logros",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": false
+    },
+    {
+        "id": "T-0002",
+        "titulo": "Entregar proyecto",
+        "descripcion": "",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": false
+    },
+    {
+        "id": "T-0004",
+        "titulo": "Estudiar para lineal",
+        "descripcion": "",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": false
+    },
+    {
+        "id": "T-0005",
+        "titulo": "Corregir bugs de codigo",
+        "descripcion": "",
+        "prioridad": 1,
+        "fecha": null,
+        "etiquetas": [],
+        "completada": false
+    }
+]

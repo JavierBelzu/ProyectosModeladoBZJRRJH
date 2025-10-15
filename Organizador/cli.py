@@ -11,6 +11,8 @@ def main():
     tareas_guardadas = io_json.cargar_tareas(Archivo)
     repo.cargar_tareas(tareas_guardadas)
 
+    Tarea.sincronizar_contador(repo.obtener_todas_tareas())
+
     parser = argparse.ArgumentParser(description="Una simple agenda de tareas en la terminal.")
     subparsers = parser.add_subparsers(dest='command', help='Comandos disponibles', required=True)
 
@@ -75,6 +77,7 @@ def main():
         
     elif args.command == 'done':
         repo.marcar_completada(args.id)
+        modified = True
         
     elif args.command == 'rm':
         repo.eliminar_tarea(args.id)
@@ -86,6 +89,7 @@ def main():
     elif args.command == 'load':
         tareas = io_json.cargar_tareas(args.archivo)
         repo.cargar_tareas(tareas)
+        modified = True
 
     if modified:
         io_json.guardar_tareas(repo.obtener_todas_tareas(), Archivo)
